@@ -1,0 +1,22 @@
+<plugin name='schedule' version='0.1' grailsVersion='2.4 &gt; *'>
+  <author>Your name</author>
+  <title>Schedule Plugin</title>
+  <description>Brief summary/description of the plugin.
+</description>
+  <documentation>http://grails.org/plugin/schedule</documentation>
+  <type>ScheduleGrailsPlugin</type>
+  <resources>
+    <resource>BootStrap</resource>
+    <resource>spring.resources</resource>
+    <resource>schedule.JobIntervalController</resource>
+    <resource>schedule.PersonAController</resource>
+    <resource>schedule.JobInterval</resource>
+    <resource>schedule.PersonA</resource>
+    <resource>schedule.PersonB</resource>
+    <resource>schedule.PersonC</resource>
+    <resource>schedule.DynamicJob</resource>
+    <resource>schedule.MyJob</resource>
+    <resource>schedule.PersonBJob</resource>
+    <resource>schedule.BatchService</resource>
+  </resources>
+</plugin>
